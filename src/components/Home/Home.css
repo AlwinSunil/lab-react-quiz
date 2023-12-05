@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #47398d;
+  gap: 1rem;
+  height: 100vh;
+}
+
+button {
+  padding: 0.75rem 2rem;
+  border: 0px;
+  font-weight: 600;
+}
+
+.home button {
+  background-color: #0ab306;
+  border-radius: 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  height: fit-content;
+  text-align: center;
+  color: white;
+}
