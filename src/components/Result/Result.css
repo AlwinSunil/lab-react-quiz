@@ -50,12 +50,22 @@
 
 .btn-playagain {
   border: 2px solid #5b21b6;
+  border-radius: 0.2rem;
   color: #5b21b6 !important;
   background-color: #ddd6fe;
 }
 
 .btn-backhome {
   border: 2px solid #15803d;
+  border-radius: 0.2rem;
   color: #15803d !important;
   background-color: #dcfce7;
+}
+
+.btn-backhome:hover {
+  background-color: hsl(141, 80%, 89%) !important;
+}
+
+.btn-playagain:hover {
+  background-color: hsl(251, 95%, 89%);
 }

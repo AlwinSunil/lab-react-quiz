@@ -5,22 +5,28 @@
   align-items: center;
   background-color: #47398d;
   gap: 1rem;
-  margin-top: 8rem;
-  margin-bottom: 4rem;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
+a,
 button {
   padding: 0.75rem 2rem;
   border: 0px;
   font-weight: 600;
+  color: white;
+  text-decoration: none;
 }
 
-.home button {
+.home a {
   background-color: #0ab306;
   border-radius: 2rem;
 }
 
+.home a:hover {
+  background-color: hsl(119, 94%, 34%);
+}
+
+a,
 button:hover {
   cursor: pointer;
 }

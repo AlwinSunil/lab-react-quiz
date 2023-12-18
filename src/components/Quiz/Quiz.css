@@ -37,7 +37,7 @@
 
 .option:hover {
   cursor: pointer;
-  font-weight: 500;
+  background-color: hsl(199, 89%, 46%);
 }
 
 .action {
@@ -55,10 +55,32 @@
   background-color: #dc2626;
 }
 
+.quit:hover {
+  background-color: hsl(0, 72%, 47%);
+}
+
 .prev {
   background-color: #2563eb;
 }
 
+.prev:hover {
+  background-color: hsl(221, 83%, 49%);
+}
+
 .next {
-  background-color: #0ab306;
+  background-color: hsl(119, 94%, 36%);
+}
+
+.next:hover {
+  background-color: hsl(119, 94%, 33%);
+}
+
+.finish {
+  background-color: #eeeeee;
+  color: #000000;
+  border-radius: 0.2rem;
+}
+
+.finish:hover {
+  background-color: hsl(0, 0%, 89%);
 }
